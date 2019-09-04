@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<style>
+body{
+background-color:gray;
+padding : 3%;
+border: 5px solid black;
+}
+.tomato{
+color : tomato;
+background-color : gray;
+font-family : arial;
+border-left : 10px solid green;
+width:140px;
+float:left;
+font-size:30px;
+}
+.navbut{
+background-color:gray;
+font-family : arial;
+border-left : 10px solid green;
+width:140px;
+float:right;
+font-size:30px;
+color:black;
+text-decoration:none;
+}
+#navbar{
+background-color : gray;
+font-family : arial;
+border-left : 10px solid green;
+display :flex;
+border: 2px solid black;
+}
+.navbut:hover{
+background-color : lightgray;
+color:black;
+text-decoration:none;
+<script>
+document.getElementById('kuva').style.color = "blue";
+</script>
+}
+#filler{
+width:100%
+float:right;
+background-color:black;
+}
+#kuva{
+width:99%;
+height: 60px;
+border: 3px tomato solid;
+onclick:"funktio()";
+}
+.joo{
+border: 30px dotted blue;
+background-color:blue;
+display:flex;
+}
+#tekst{
+padding:3px
+float:none;
+}
+.left{
+flex:1;
+float:left;
+padding:2%;
+width:45%;
+border:2px solid black;
+border-radius:25px;
+}
+p{
+word-wrap:break-word;
+}
+div{
+word-wrap: break-word;
+background-color : lightgray;
+}
+.main{
+float:left;
+heigth:auto;
+padding:20px;
+}
+.right{
+float:right;
+padding:2%;
+width:45%;
+border:2px solid black;
+flex:1;
+border-radius:25px;
+}
+@media screen and (max-width: 600px) {
+.tomato, .navbut, #navbar {
+width: 100%;
+float:none;
+flex-direction:column;
+
+}
+}
+p{
+}
+</style>
+</head>
+<body>
+<div id='navbar'>
+<a class='tomato'>Otsikko</h1>
+
+<a href="#" class='navbut'>link1</a>
+<a href="#" class='navbut'>link2</a>
+<a href="#" class='navbut'>link3</a>
+<a href="#" id='filler'></a>
+</div>
+<div style='border:2px solid black;'>
+<p id='tekst'> asdffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+</p>
+<div style="display:flex">
+<div class='left'>
+<h>
+Otsiggo1
+</h>
+<p>
+jjjjjjjjjjjjjjjjjjj
+</p>
+</div>
+<div class='right'>
+<h>
+Otsiggo2
+</h>
+<p> JJJJJJJJJJJJJJjjjjjjjjjsggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+</p>
+</div>
+</div> <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+
+<div onclick="funktio(this)">adffffff</div>
+<div id="kuva">adffffff</div>
+<script>
+function funktio(a){
+onclick=document.getElementById('kuva').style.color = "blue";
+onclick=a.innerHTML='Ooops!';
+}
+</script>
+</body>
+</html>
